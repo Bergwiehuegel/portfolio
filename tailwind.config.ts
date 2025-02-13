@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // add custom colors to tailwind themes
+        card: {
+          light: 'oklch(97.23% 0.004 106.47)',
+          dark: 'oklch(90% 0.004 106.47)'
+        }
       },
     },
   },
